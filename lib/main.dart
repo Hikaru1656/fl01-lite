@@ -1,4 +1,5 @@
 import 'package:fl01_lite/screens/app.dart/ex0/ex0.dart';
+import 'package:fl01_lite/screens/app.dart/ex1/ex1.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,9 +14,9 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.white,
-        primarySwatch: Colors.red,
+        primarySwatch: Colors.blue,
       ),
-      home: Ex0(),
+      home: Ex1(),
     );
   }
 }
